@@ -1,0 +1,28 @@
+body{
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+    
+}
+.circulo{
+   
+    background-color: lightblue;
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+ 
+    
+}
+.circulo:hover{
+    width: 0px;
+    height: 0px;
+    border-top: 80px solid transparent;
+    border-right: 120px solid lightblue;
+    border-bottom: 80px solid transparent;
+    background-color: white;
+    rotate: 90deg;
+}
+

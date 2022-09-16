@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: black;
+    
+}
+.circulo{
+   
+    background-color: blue;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    animation-name: changer-color;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes changer-color {
+0%{background-color: brown;}   
+10% {background-color: yellowgreen;}
+20% {background-color: palevioletred;}
+30% {background-color: blueviolet;}
+40% {background-color: royalblue;}
+50% {background-color: goldenrod;}
+60% {background-color: aqua;}
+70% {background-color: greenyellow;}
+80% {background-color: #54df45;}
+90% {background-color: #984f5f;}
+100%{background-color: green;}
+}
+header a{
+    color:goldenrod;
+    text-decoration: none;
+    padding-left: 20px ;
+}
+header{
+    background-color: grey;
+    font-size:xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod;
+    width: 100vw;
+    height: 100px;
+
+}

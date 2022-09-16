@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: black;
+    
+}
+.circulo{
+   
+    background-color: blue;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation-name: pulsar;
+    animation-duration:2s;
+    
+}
+@keyframes pulsar{
+    0%{width: 175px; height: 175px;}
+    20%{width: 200px; height: 200px;}
+    40%{width: 175px; height: 175px;}
+    60%{width: 200px; height: 200px;}
+    80%{width: 175px; height: 175px;}
+    100%{width: 200px; height: 200px;}
+}
+header a{
+    color:goldenrod;
+    text-decoration: none;
+    padding-left: 20px ;
+}
+header{
+    background-color: grey;
+    font-size:xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod;
+    width: 100vw;
+    height: 100px;
+
+}
+

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: black;
+    
+}
+.quadrado{
+   
+    background-color: blue;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation-name: crescente;
+    animation-duration:2s;
+}
+@keyframes crescente{
+    0%{width: 0px; height: 0px;}
+    25%{width: 50px; height: 50px; background-color: aqua;}
+    50%{width: 100px; height: 100px;}
+    75%{width: 150px; height: 150px;background-color: brown;}
+    100%{width: 200px; height: 200px;}
+}
+header a{
+    color:goldenrod;
+    text-decoration: none;
+    padding-left: 20px ;
+}
+header{
+    background-color: grey;
+    font-size:xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod;
+    width: 100vw;
+    height: 100px;
+
+}
+

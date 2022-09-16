@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    
+}
+.circulo{
+    background-color: blue;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation-name: giro;
+    animation-duration:2s;
+}
+@keyframes giro{
+    0%{rotate: 0deg;}
+    10%{rotate: 45deg; background-color: yellowgreen;}
+    20%{rotate: 90deg; background-color: blueviolet;}
+    30%{rotate: 135deg; background-color: red;}
+    40%{rotate: 180deg; background-color: #65d544;}
+    60%{rotate: 225deg; background-color: #3565;}
+    70%{rotate: 270deg; background-color: #752;}
+    80%{rotate: 325deg; background-color: #055;}
+    100%{rotate: 360deg; background-color: #5478;}
+}
+header a{
+    color:goldenrod;
+    text-decoration: none;
+    padding-left: 20px ;
+}
+header{
+    background-color: grey;
+    font-size:xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod;
+    width: 100vw;
+    height: 100px;
+
+}

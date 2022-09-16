@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #030506;
+    
+}
+.login{
+   
+    background-color: #72577c;
+    position: relative;
+    
+    border-radius: 2px;
+    width: 250px;
+    height: 200px;
+    padding: 40px 30px;
+    animation-name: login-move;
+    animation-duration:3s;
+    animation-delay:initial;
+    
+}
+.login input, button{
+   margin-bottom: 10px;
+
+}
+.login input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10% solid grey;
+    border-radius: 10%;
+    border-radius: 5px;
+
+}
+.login button{
+    border: none;
+    box-shadow: 10% black;
+    border-bottom: 20% solid gray;
+    border-radius: 5px;
+    background-color: rgb(243, 218, 79);
+}
+
+@keyframes login-move{
+    from{top: -500px}
+    to{top: 0px}
+}
+header a{
+    color:goldenrod;
+    text-decoration: none;
+    padding-left: 20px ;
+}
+header{
+    background-color: grey;
+    font-size:xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod;
+    width: 100vw;
+    height: 100px;
+
+}
